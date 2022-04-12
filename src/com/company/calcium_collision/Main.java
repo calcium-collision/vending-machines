@@ -7,6 +7,23 @@ public class Main {
 
     public static void main(String[] args) {
 
+        //------------------------RU-------------------------------------
+        // Задача про находчивого инженера в кафе ☕️
+        // В кафе поставили 3 разных автомата, которые наливают напитки. В первом — кофе, во втором — чай,
+        // а третий выдаёт случайным образом то кофе, то чай (потому что в жизни всегда должно быть место эксперименту).
+        // Для каждого из автоматов нужна 1 монета, чтобы получить напиток.
+        // Но на заводе перепутали маркировку автоматов, поэтому на каждом из них оказалась неправильная наклейка.
+        // Сколько монет понадобится находчивому инженеру, чтобы понять, где какой автомат?
+
+        //------------------------EN-------------------------------------
+        // A task about a resourceful engineer in a cafe ☕️
+        // The cafe has 3 different vending machines that pour drinks. In the first - coffee, in the second - tea,
+        // and the third randomly gives out either coffee or tea
+        // (because in life there should always be a place for experimentation).
+        // Each of the machines needs 1 coin to get a drink.
+        // But at the factory they mixed up the markings of the machines, so each of them had the wrong sticker.
+        // How many coins will a resourceful engineer need to figure out which machine is which?
+
         VendingMachinePack vmp = new VendingMachinePack();
 
         int insertedCoins = 0;
